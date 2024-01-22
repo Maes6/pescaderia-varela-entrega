@@ -1,0 +1,133 @@
+@media screen and (max-width: 1200px){
+
+    .contenedor-grilla-marisco{
+        row-gap: 1rem;
+        
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "1 2"
+        "3 4"
+        "5 6";
+        
+        .grillamariscos{
+            height: 210px;
+        }
+    }
+
+}
+@media screen and (max-width: 1090px){
+    .mariscos-congelados{
+        display: block;
+        
+    }
+    .img-mariscos {
+        background-color: aqua;
+    
+    }
+    .pescados-frescos{
+        display: block;
+    }
+
+    .mariscos-congelados{
+        display: flex;
+    }
+
+    .grillaimagenes{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 850px){
+
+}
+@media screen and (max-width: 800px){
+    .hero-left{
+        display: none ;
+    }
+    .container{
+        grid-template-columns: 30rem;
+        grid-template-rows: 12rem 12rem 12rem 12rem 12rem 12rem 12rem 12rem 12rem 12rem;
+        
+
+    }
+
+    .tienda1-img{
+        width: 200px;
+        border: solid 2px;
+        margin-bottom:0.75rem ;
+        margin-left: 0.5rem;
+        
+        }
+    .descripcion-prod1{
+        display: none;
+    }
+
+    button{
+        border-radius: 2rem;
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .contenedor-grilla{
+        row-gap: 1rem;
+        grid-template-columns:1fr;
+        grid-template-rows: 4fr;
+        grid-template-areas: 
+        "1"
+        "2"
+        "3"
+        "4";
+    }
+
+    
+    
+}
+@media screen and (max-width: 710px){
+    .hero-title-h4{
+        display: none;
+    }
+    
+    .form{
+        flex-direction: column;
+    }    
+
+    .contenedor-grilla-marisco{
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "1"
+        "2"
+        "3"
+        "4"
+        "5"
+        "6";
+        
+        .grillamariscos{
+            height: 210px;
+        }
+        
+    
+}
+
+@media screen and (max-width: 550px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-btn{
+        margin-top: 1rem;
+    }
+
+    .container{
+        grid-template-columns: 20rem;
+        grid-template-rows: 12rem 11rem 10rem 9rem 8rem 7rem 6rem 5rem 4rem 3rem;
+    
+
+}
+
+@media screen and (max-width: 390px){
+    footer{
+        flex-direction: column;
+    }
+    }
+}
+}

@@ -1,0 +1,41 @@
+.hero {
+    background-color: rgb(5, 37, 75);
+    color: white;
+    display: flex;
+    padding: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+    border: dashed 5px;
+
+    .hero-right {
+        text-align: center;
+        flex: 1;
+
+        .hero-title {
+            padding-bottom: 1rem;
+            padding-left: 0.45rem;
+        }
+    }
+
+    .hero-img {
+        width: 200px;
+        border-radius: 150rem;
+        flex: 1;
+
+    }
+
+    .hero-left {
+        text-align: justify;
+        flex: 1;
+    }
+
+    .hero-btn {
+        color: rgb(255, 255, 255);
+        border-radius: 0.5rem;
+        padding: 0.25rem;
+        text-align: right;
+        display: flex;
+        background-color: #ffffff;
+        margin-top: 8rem;
+        }
+}

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../styles/estilo.css">
     <title>Mariscos</title>
 </head>
 <body class="body">
     <body class="body-pescados">
         <header>
-            <img src="../img/logo azul png.png" alt="Logo Pescaderia" class="logo">
+            <img src="../img/logo-azul-png.png" alt="Logo Pescaderia" class="logo">
             
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -23,6 +23,7 @@
                     <a class="nav-link "  href="../pages/pescados.html">Pescados</a>
                     <a class="nav-link active" aria-current="page" href="../pages/mariscos.html">Mariscos</a>
                     <a class="nav-link" href="../pages/comidas.html">Comidas</a>
+                    <a class="nav-link "  href="../pages/tienda.html">Tienda</a>
                     <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                     </div>
                     </div>
@@ -30,24 +31,43 @@
                 </div>
             </nav>
         </header>
-        <main class="mariscos-congelados">
-            
 
-        <div>
+        <main class="mariscos-congelados">
+
+        <div class="texto-mariscos">
 
             <p>
-                ¡Sumérgete en una experiencia gastronómica incomparable en Pescadería Varela, donde la frescura de nuestros mariscos te transportará a un mundo de sabores exquisitos! Nos enorgullece presentarte una selección excepcional de mariscos frescos, capturados de los océanos más puros y entregados directamente a tu mesa.
-                En Pescadería Varela, cada marisco es cuidadosamente seleccionado para garantizar la máxima calidad y frescura. Desde las suculentas gambas hasta las delicadas vieiras, cada pieza refleja nuestro compromiso inquebrantable con los estándares más altos. Nos asociamos con pescadores expertos que comparten nuestra pasión por ofrecer mariscos frescos que resaltan la pureza del mar.
+                ¡Sumérgete en una experiencia gastronómica incomparable en Pescadería Varela, donde la frescura de nuestros mariscos te transportará a un mundo de sabores exquisitos! Nos enorgullece presentarte una selección excepcional de mariscos frescos, capturados de los océanos más puros y entregados directamente a tu mesa. <br>
+                En Pescadería Varela, cada marisco es cuidadosamente seleccionado para garantizar la máxima calidad y frescura. Desde las suculentas gambas hasta las delicadas vieiras, cada pieza refleja nuestro compromiso inquebrantable con los estándares más altos. Nos asociamos con pescadores expertos que comparten nuestra pasión por ofrecer mariscos frescos que resaltan la pureza del mar. <br>
                 Nuestra variedad de mariscos frescos te invita a explorar un mundo de texturas y sabores extraordinarios. Las ostras, con su sabor salino y su ternura inigualable, son solo el comienzo. Las langostas, cangrejos y mejillones se suman a nuestra carta, creando una sinfonía de delicias marinas que deleitarán incluso a los paladares más exigentes.
-                En Pescadería Varela, entendemos que la frescura es la clave para resaltar las cualidades únicas de los mariscos. Trabajamos directamente con proveedores de confianza para asegurarnos de que cada producto que ofrecemos mantenga su frescura y sabor originales. Desde el mero momento de la captura hasta tu plato, nos comprometemos a proporcionarte mariscos frescos que te harán apreciar la calidad y la autenticidad.
+                En Pescadería Varela, entendemos que la frescura es la clave para resaltar las cualidades únicas de los mariscos. 
+                <br>Trabajamos directamente con proveedores de confianza para asegurarnos de que cada producto que ofrecemos mantenga su frescura y sabor originales. Desde el mero momento de la captura hasta tu plato, nos comprometemos a proporcionarte mariscos frescos que te harán apreciar la calidad y la autenticidad. <br>
                 Nuestro equipo apasionado está listo para guiarte en la elección de mariscos perfecta para tus gustos y preferencias culinarias. Ven a Pescadería Varela y descubre cómo la frescura y la calidad se combinan para brindarte una experiencia culinaria única. ¡Te invitamos a explorar los mares a través de nuestros mariscos frescos y a disfrutar de un festín que estimulará todos tus sentidos!
             </p>
             </div>
 
-            <div>
+            <section>
+
+                <div class="contenedor-grilla-marisco">
+                    <div class="mar-imagen1 marimg"><img class="grillamariscos"  src="../img/mejillon-pelado.jpg" alt=""></div>
+                    <div class="mar-imagen2 marimg"><img class="grillamariscos" src="../img/camaron pelado.jpg" alt=""></div>
+                    <div class="mar-imagen3 marimg"><img class="grillamariscos" src="../img/pulpo.jpg" alt=""></div>
+                    <div class="mar-imagen4 marimg"><img class="grillamariscos" src="../img/vieyra.jpg" alt=""></div>
+                    <div class="mar-imagen5 marimg"><img class="grillamariscos" src="../img/langs-enteros.jpg" alt=""></div>
+                    <div class="mar-imagen6 marimg"><img class="grillamariscos" src="../img/rabas.jpg" alt=""></div>
+                    
+                </div>
+            </section>
+        
+
+            <!-- <div class="mariscos-seccion">
+            <div class="mariscos-img1">
                 <img src="../img/camaron pelado.jpg" alt="camaron" class="img-mariscos1">
+            </div>
+            <div class="mariscos-img2">
                 <img src="../img/mejillon pelado.jpg" alt="mejillon" class="img-mariscos2">
             </div>
+        </div> -->
         </main>
         <footer>
             <div class="footer-info">
@@ -55,7 +75,7 @@
             <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-              </svg>Av Varela 1196, Flores, CABA.</p>
+            </svg>Av Varela 1196, Flores, CABA.</p>
             </div>
             <div>
                 <p>
@@ -90,5 +110,6 @@
             </div>
             </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            
 </body>
 </html>

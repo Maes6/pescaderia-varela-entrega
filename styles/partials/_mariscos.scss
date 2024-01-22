@@ -1,0 +1,84 @@
+.mariscos-congelados {
+    margin-inline: 2rem;
+    display: flex ;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.contenedor-grilla-marisco{
+    -webkit-animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;
+    animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "1 2 3"
+    "4 5 6" ;
+    row-gap: 1rem;
+    justify-items: center;
+    margin: auto;
+    
+
+    .grillamariscos{
+        height: 250px;
+        border: solid 2px;
+        border-radius: 10px;
+        
+    }
+    .mar-imagen1{
+        grid-template-areas: 1;
+        :hover { 
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+        
+    }
+    
+    .mar-imagen2{
+        grid-template-areas: 2;
+        :hover {
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+    }
+    .mar-imagen3{
+        grid-template-areas: 3;
+        :hover { 
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+    }
+    .mar-imagen4{
+        grid-template-areas: 4;
+        :hover { 
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+    }
+    .mar-imagen5{
+        grid-template-areas: 5;
+        :hover { 
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+    }
+    .mar-imagen6{
+        grid-template-areas: 6;
+        :hover { 
+            transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+    }
+    
+}
+
+
+@-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}};
+@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}};

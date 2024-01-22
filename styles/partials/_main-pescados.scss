@@ -1,0 +1,75 @@
+.pescados-frescos {
+    margin-inline: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.contenedor-grilla { 
+    -webkit-animation:fade-in 2s cubic-bezier(.39,.575,.565,1.000) both;
+    animation:fade-in 2s cubic-bezier(.39,.575,.565,1.000) both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+    "1 2"
+    "3 4";
+    
+    column-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+
+    align-content: space-evenly;
+    justify-content: center ;
+
+
+    align-content: space-evenly;
+    justify-content: center ; 
+
+    .imagen1 {
+        grid-template-areas: 1;
+    
+        :hover { transform: scale(1.02);
+                box-shadow: 0.5px 0.5px 20px $maincolor;
+                transition: all 100ms ease;
+            }
+        }
+    .imagen2 {
+        grid-template-areas: 2;
+        
+        :hover { transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+        
+        }
+    .imagen3 {
+        grid-template-areas: 3;
+    
+        :hover { transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+        }
+    .imagen4 {
+        grid-template-areas: 4;
+    
+        :hover { transform: scale(1.02);
+            box-shadow: 0.5px 0.5px 20px $maincolor;
+            transition: all 100ms ease;
+        }
+        }
+}
+
+.grillaimagenes {
+    border: 1px solid $maincolor;
+    margin: 1px;
+    
+    border-radius: 10px;
+    width: 350px;
+}
+
+
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}};
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}};
